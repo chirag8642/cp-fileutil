@@ -1,0 +1,8 @@
+#Example 1: to move file with specific keywords name to different folder
+node fileutil.js move --src="file path" --dest="filepath" --keywords="give keywords to filter file name using that" --fileType="type of file you want to move"
+example: node fileutil.js move --s="P:\src" --d="P:\dest" --r="Mastering"
+
+
+#Example 2: Just to rename the file with which contains specific keywwords to replace that keywords found in file name
+node fileutil.js rename --src="file path" --replace="give keywords to filter file name using that" 
+example: node fileutil.js rename --s="P:\src" --k="ebook" --r="" 

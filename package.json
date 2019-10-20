@@ -1,0 +1,28 @@
+{
+  "name": "cp-fileutil",
+  "description": "",
+  "main": "fileutil.js",
+  "version": "1.0.4",
+  "bin": {
+    "fileutil": "fileutil.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["file", "fileutils", "file util", "rename", "move"],
+  "author": "Chirag Patel",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^3.0.2",
+    "findit": "^2.0.0",
+    "lodash": "^4.17.15",
+    "mv": "^2.1.1",
+    "validator": "^11.1.0",
+    "yargs": "^14.2.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.2",
+    "sinon": "^7.5.0"
+  }
+}
