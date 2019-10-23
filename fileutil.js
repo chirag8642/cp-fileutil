@@ -57,7 +57,7 @@ yargs.command({
             alias: 'd'
         },
         replace: {
-            describe: "destination folder where you want to move files ",
+            describe: "Word in file name which you can use to move the file ",
             demandOption: true,
             type: 'string',
             alias: 'r'

@@ -2,7 +2,7 @@
   "name": "cp-fileutil",
   "description": "",
   "main": "fileutil.js",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "bin": {
     "fileutil": "fileutil.js"
   },

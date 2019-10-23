@@ -24,8 +24,8 @@ Example:
 #### for moving file
 
 ##### Example: to move file with specific keywords name to different folder
-`fileutil move --src="file path" --dest="filepath" --keywords="give keywords to filter file name using that" --fileType="type of file you want to move"`
+`fileutil move --src="file path" --dest="filepath" --keywords="give keywords to filter file name using that" --replacer="Word in file name which you can use to move the file " --fileType="type of file you want to move"`
 
 ###### *you can also use shortcuts for all arguments as mentioned below*
 Example: 
-`fileutil move --s="P:\src" --d="P:\dest" --r="Mastering"`
+`fileutil move --s="P:\src" --d="P:\dest" --r="Mastering" -f="pdf"`
