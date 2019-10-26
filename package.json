@@ -1,8 +1,8 @@
 {
   "name": "cp-fileutil",
-  "description": "",
+  "description": "Utility to rename or move files using keywords",
   "main": "fileutil.js",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "bin": {
     "fileutil": "fileutil.js"
   },

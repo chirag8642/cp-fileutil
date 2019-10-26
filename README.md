@@ -1,31 +1,43 @@
 
 # Installation
-### local installation
-`npm install --save cp-fileutil`
+### Local installation
+```js
+npm install --save cp-fileutil
+```
 
-### global installation
-`npm install -g cp-fileutil`
+### Global installation
+```js
+npm install -g cp-fileutil
+```
 
 Global installation will give you fileutil command in cmd
 
 # How to use it
 This utility package has two functionality, rename and move
 
-#### for rename
-##### Example: Just to rename the file with which contains specific keywords to replace that keywords found in file name
+#### Ror Rename
+##### To rename the file with which contains specific keywords to replace that keywords found in file name
 
-`fileutil rename --src="file path" --keyWord="give keywords to find that in file which you want to replace" --replacer="replacement word" `
+```js
+fileutil rename --src="file path" --keyWord="give keywords to find that in file which you want to replace" --replacer="replacement word" 
+```
 
-###### *you can also use shortcuts for all arguments as mentioned below*
+###### *You can also use shortcuts for all arguments as mentioned below*
 Example: 
 
-`fileutil rename --s="P:\src" --k="ebook" --r="" `
+```js
+fileutil rename --s="P:\src" --k="ebook" --r="" 
+```
 
-#### for moving file
+#### For Moving File
 
-##### Example: to move file with specific keywords name to different folder
-`fileutil move --src="file path" --dest="filepath" --keywords="give keywords to filter file name using that" --replacer="Word in file name which you can use to move the file " --fileType="type of file you want to move"`
+##### To move file with specific keywords name to different folder
+```js
+fileutil move --src="file path" --dest="filepath" --keywords="give keywords to filter file name using that" --replacer="Word in file name which you can use to move the file " --fileType="type of file you want to move" 
+```
 
-###### *you can also use shortcuts for all arguments as mentioned below*
+###### *You can also use shortcuts for all arguments as mentioned below*
 Example: 
-`fileutil move --s="P:\src" --d="P:\dest" --r="Mastering" -f="pdf"`
+```js
+fileutil move --s="P:\src" --d="P:\dest" --r="Mastering" -f="pdf"
+```
