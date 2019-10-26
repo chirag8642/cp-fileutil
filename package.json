@@ -2,7 +2,7 @@
   "name": "cp-fileutil",
   "description": "Utility to rename or move files using keywords",
   "main": "fileutil.js",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "bin": {
     "fileutil": "fileutil.js"
   },
@@ -11,7 +11,7 @@
   },
   "keywords": ["file", "fileutils", "file util", "rename", "move"],
   "author": "Chirag Patel",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "commander": "^3.0.2",
     "findit": "^2.0.0",
@@ -24,5 +24,13 @@
     "chai": "^4.2.0",
     "mocha": "^6.2.2",
     "sinon": "^7.5.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:chirag8642/cp-fileutil.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chirag8642/cp-fileutil/issues"
+  },
+  "homepage": "https://github.com/chirag8642/cp-fileutil"
 }

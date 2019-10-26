@@ -33,7 +33,7 @@ fileutil rename --s="P:\src" --k="ebook" --r=""
 
 ##### To move file with specific keywords name to different folder
 ```js
-fileutil move --src="file path" --dest="filepath" --keywords="give keywords to filter file name using that" --replacer="Word in file name which you can use to move the file " --fileType="type of file you want to move" 
+fileutil move --src="file path" --dest="filepath" --replace="Word in file name which you can use to move the file " --fileType="type of file you want to move" 
 ```
 
 ###### *You can also use shortcuts for all arguments as mentioned below*
@@ -41,3 +41,4 @@ Example:
 ```js
 fileutil move --s="P:\src" --d="P:\dest" --r="Mastering" -f="pdf"
 ```
+The above command will move all the files which contains keyword as 'Mastering' from P:\src to P:\dest whose extension is pdf.
