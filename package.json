@@ -9,7 +9,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["file", "fileutils", "file util", "rename", "move"],
+  "keywords": [
+    "file",
+    "fileutils",
+    "file util",
+    "rename",
+    "move"
+  ],
   "author": "Chirag Patel",
   "license": "MIT",
   "dependencies": {

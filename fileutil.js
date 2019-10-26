@@ -29,7 +29,7 @@ yargs.command({
             demandOption: true,
             type: 'string',
             alias: 'r'
-        },
+        }
     },
     handler: function (argv) {
         validate2(argv);
