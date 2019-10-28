@@ -15,7 +15,7 @@ Global installation will give you fileutil command in cmd
 # How to use it
 This utility package has two functionality, rename and move
 
-#### Ror Rename
+#### For Rename
 ##### To rename the file with which contains specific keywords to replace that keywords found in file name
 
 ```js
